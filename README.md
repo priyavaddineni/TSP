@@ -9,6 +9,7 @@ All three algorithms can be executed using their respective files and the visual
 ##### Results Analysis
 
 ###### Runtime
+![alt text](https://github.com/priyavaddineni/TSP/blob/main/graph.PNG?raw=true)
 
 Run time for Genetic and Hill climbing increased exponentially with increase in number of cities. Whereas in case of simulated annealing, run time increased but not
 exponential. Run time is affected by the set of parameters used. If in genetic algorithm, we reduce population size there will be an improvement in run time but, the solution quality decreases. Same is the case of hill climbing, if number of iterations is decreased, run time will have an improvement. Thus, if run time is used for comparison then, Simulated annealing is the best performer.
